@@ -92,7 +92,7 @@
         <item>繁体中文</item>
     </string-array>
 
-    <string name="company">Mycelium</string>
+    <string name="company">Mycelium CP</string>
     <string name="coinapult">Coinapult</string>
     <string name="coinapult_tos_link_url">https://coinapult.com/terms</string>
     <string name="glidera_tos">If you continue, you agree to proceed to Glidera, a third party service. All your interactions with Glidera are outside of Mycelium’s control and are subject to Glidera’s User Agreement and Privacy Policy. Please read them carefully before providing any personal information. Mycelium won’t provide any personal information to Glidera. All information that you may provide to Glidera will be subject to Glidera’s Privacy Policy and will not be collected, stored, or used by Mycelium.\n\nMYCELIUM ACCEPTS NO RESPONSIBILITY AND WILL NOT BE LIABLE FOR ANY LOSS OR DAMAGE WHATSOEVER SUFFERED AS A RESULT OF ACCESSING, USE OF, OR RELIANCE UPON GLIDERA’S INFORMATION AND SERVICES.</string>

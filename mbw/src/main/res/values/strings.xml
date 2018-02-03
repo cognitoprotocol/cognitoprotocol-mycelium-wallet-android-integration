@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
-    <string name="app_name">Mycelium Bitcoin Wallet</string>
-    <string name="app_short_name">Mycelium</string>
+    <string name="app_name">Mycelium CP Bitcoin Wallet</string>
+    <string name="app_short_name">Mycelium CP</string>
 
     <string name="add_account_title">Add New Account</string>
     <string name="add_unrelated_account_title">Add Unrelated Account</string>
@@ -240,7 +240,7 @@
     <string name="getting_location">obtaining location…</string>
     <string name="about">About</string>
     <string name="mycelium_license">Mycelium License</string>
-    <string name="mycelium">Mycelium</string>
+    <string name="mycelium">Mycelium CP</string>
     <string name="special_thanks">Special Thanks</string>
     <string name="zxing_license">ZXing License</string>
     <string name="pdfwriter_license">Android PDF Writer License</string>
