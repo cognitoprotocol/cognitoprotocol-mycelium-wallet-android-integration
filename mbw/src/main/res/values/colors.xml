@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#f00</color>
+    <color name="green">#0f0</color>
+    <color name="semidarkgreen">#0c0</color>
+    <color name="darkgreen">#080</color>
+    <color name="black">#000</color>
+    <color name="darkblue">#2f6699</color>
+    <color name="brightblue">#449def</color>
+    <color name="darkred">#99662f</color>
+    <color name="brightred">#ef9d44</color>
+    <color name="brightgreen">#44ef9d</color>
+    
+    <color name="mycelium_midblue">#3e9bd3</color>
+    <color name="mycelium_brightblue">#5fcbf2</color>
+
+    <color name="greenblue">#0FF</color>
+    <color name="darkgrey">#444</color>
+    <color name="darkdarkgrey">#222</color>
+    <color name="grey">#888</color>
+    <color name="lightgrey">#bbb</color>
+    <color name="lightgrey_transparent">#77555555</color>
+    <color name="white">#fff</color>
+    <color name="yellow">#ff0</color>
+    <color name="darkyellow">#880</color>
+    <color name="semidarkyellow">#cc0</color>
+    <!--<color name="selectedrecord">#04222f</color>-->
+    <color name="selectedrecord">#002e3e</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparentgrey">#88888888</color>
+    <color name="buttoncolor">#ff1c3d5c</color>
+    <color name="fnbuttoncolor">#ff112639</color>
+    <color name="fnbuttoncolor_border">#ff255179</color>
+    <color name="buttonredcolor">#ffff1c1c</color>
+    
+    <drawable name="semi_black">#80000000</drawable>
+
+    <color name="status_green">#bbdd99</color>
+    <color name="status_red">#ffea5e5e</color>
+    <color name="status_yellow">#ddb352</color>
+
+    <color name="rmc_active">#ff8838</color>
+    <color name="horizontalpicker_text_color">#fff</color>
+    <color name="fee_recycler_item_selected">#363d46</color>
+    <color name="fee_recycler_item">#2c3239</color>
+    <color name="sender_recyclerview_background2">#61b687</color>
+    <color name="sender_recyclerview_background_selected2">#84c8a2</color>
+
+    <fraction name="background_alpha">50%</fraction>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/miSetLabel"
+            android:title="@string/set_label"
+            yourapp:showAsAction="ifRoom|withText"
+            android:icon="@drawable/holo_dark_ic_action_labels"/>
+
+    <item
+            android:id="@+id/miShowDetails"
+            yourapp:showAsAction="ifRoom|withText"
+            android:title="@string/show_details"/>
+
+    <item
+            android:id="@+id/miShowCoinapultDebug"
+            yourapp:showAsAction="ifRoom|withText"
+            android:title="Show Coinapult Debug"/>
+
+    <item
+            android:id="@+id/miAddToAddressBook"
+            yourapp:showAsAction="ifRoom|withText"
+            android:title="@string/add_to_addressbook"/>
+
+    <item
+            android:id="@+id/miCancelTransaction"
+            yourapp:showAsAction="ifRoom|withText"
+            android:title="@string/menu_item_cancel_transaction"/>
+
+    <item
+            android:id="@+id/miRebroadcastTransaction"
+            yourapp:showAsAction="ifRoom|withText"
+            android:title="@string/menu_item_rebroadcast_transaction"/>
+
+    <item
+            android:id="@+id/miDeleteUnconfirmedTransaction"
+            yourapp:showAsAction="ifRoom|withText"
+            android:title="@string/menu_item_delete_unconfirmed_transaction"/>
+
+    <item
+        android:id="@+id/miBumpFee"
+        yourapp:showAsAction="ifRoom|withText"
+        android:title="@string/menu_item_bump_mining_fee"/>
+
+    <item
+        android:id="@+id/miShare"
+        yourapp:showAsAction="ifRoom|withText"
+        android:title="@string/share_transaction_manually"/>
+
+</menu>

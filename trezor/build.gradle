@@ -1,0 +1,39 @@
+apply plugin: 'com.android.library'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath androidBuildArtifact
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.google.protobuf:protobuf-java:2.5.0'
+
+    testCompile "junit:junit:$junitVersion"
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion androidSdkBuildVersion
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 19
+    }
+
+    lintOptions {
+        xmlReport false
+        quiet false
+        showAll true
+    }
+
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/phFragmentAddress"
+                    tools:layout="@layout/address_view"/>
+
+            <FrameLayout
+                    android:id="@+id/phFragmentBalance"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    tools:layout="@layout/main_balance_view"/>
+
+            <FrameLayout
+                    android:id="@+id/phFragmentNotice"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    tools:layout="@layout/backup_verification_warning_dialog"/>
+
+            <FrameLayout
+                    android:id="@+id/phFragmentGlidera"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    tools:layout="@layout/main_buy_sell_fragment"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+            android:id="@+id/tvBuildText"
+            style="@style/MyceliumText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:textColor="@color/transparentgrey"
+            android:textSize="12sp"/>
+
+    <TextView
+            android:id="@+id/tvTorState"
+            style="@style/MyceliumText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:textColor="@color/transparentgrey"
+            android:textSize="12sp"
+            android:visibility="gone"/>
+
+</FrameLayout>

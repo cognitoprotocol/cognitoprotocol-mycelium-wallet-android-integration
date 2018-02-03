@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/rmc_profit_meter"
+        android:textColor="@color/white"
+        android:textSize="21dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="125dp" />
+
+        <com.mycelium.wallet.activity.rmc.view.ViewPagerIndicator
+            android:id="@+id/pager_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginBottom="4dp"
+            app:delimiterSize="8dp"
+            app:itemIcon="@drawable/pager_indicator_dot"
+            app:itemSize="8dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/visit_rmc_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/payouts_rmc_every_time"
+        android:textColor="#88ffffff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="@string/bitcoin_altcoin_mining_button"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <ProgressBar
+            android:id="@+id/active_in_day_progress"
+            style="@style/RmcActiveProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:max="100"
+            android:progress="0" />
+
+        <TextView
+            android:id="@+id/active_in_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="6dp"
+            android:background="@drawable/rmc_bg_active_in_day_text"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/rmc_active_in_159_days"
+            android:textColor="@color/rmc_active"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/rmc_active_set_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="@string/rmc_not_forgot_active_day"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

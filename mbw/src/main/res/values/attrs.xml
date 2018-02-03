@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToggleableCurrencyButton">
+        <attr name="fiatOnly" format="boolean"/>
+        <attr name="hideOnNoExchangeRate" format="boolean"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="precision" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name = "ViewPagerIndicator">
+        <attr name = "itemSize" format = "dimension"/>
+        <attr name = "delimiterSize" format = "dimension"/>
+        <attr name = "itemIcon" format = "reference"/>
+    </declare-styleable>
+</resources>

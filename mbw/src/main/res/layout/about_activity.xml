@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/buttonspacing"
+            android:layout_gravity="left">
+            <!--<android.support.v7.widget.GridLayout-->
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/buttonspacing"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/version_label"
+                    android:width="@dimen/about_caption_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="0.99"
+                    android:id="@+id/tvVersionNumber"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="(990)"
+                    android:textColor="@color/lightgrey"
+                    android:paddingLeft="10sp"
+                    android:id="@+id/tvVersionCode"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="@dimen/about_caption_size" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check_update"
+                    android:id="@+id/bt_check_update"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/buttonspacing">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/source_repo_label"
+                    android:width="@dimen/about_caption_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/source_url"
+                    android:id="@+id/tvSourceUrl"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/buttonspacing">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/authors_label"
+                    android:width="@dimen/about_caption_size" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/authors"
+                    android:singleLine="false" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/company_header"
+                android:layout_marginTop="@dimen/buttonspacing"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/company"
+                android:singleLine="false"
+                android:paddingTop="@dimen/button_padding"
+                android:paddingLeft="@dimen/about_caption_size"/>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="@dimen/about_caption_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/buttonspacing">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/homepage_label"
+                    android:width="@dimen/about_caption_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/homepage_url"
+                    android:id="@+id/tvHomepageUrl"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/buttonspacing">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact_email_label"
+                    android:width="@dimen/about_caption_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact_email"
+                    android:id="@+id/tvContactEmail"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/buttonspacing">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/playstore_link_label"
+                    android:width="@dimen/about_caption_size" />
+
+                <com.mycelium.wallet.activity.util.QrImageView
+                    android:id="@+id/ivPlaystoreQR"
+                    android:layout_width="@dimen/small_qrcode"
+                    android:layout_height="@dimen/small_qrcode"
+                    android:contentDescription="@string/qr_code"
+                    android:longClickable="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/buttonspacing"
+                android:layout_marginBottom="@dimen/buttonspacing">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direct_apk_link_label"
+                    android:width="@dimen/about_caption_size" />
+
+                <com.mycelium.wallet.activity.util.QrImageView
+                    android:id="@+id/ivDirectApkQR"
+                    android:layout_width="@dimen/small_qrcode"
+                    android:layout_height="@dimen/small_qrcode"
+                    android:contentDescription="@string/qr_code"
+                    android:longClickable="false" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="@dimen/about_buttonsize"
+            android:layout_height="wrap_content"
+            android:text="@string/special_thanks"
+            android:id="@+id/bt_special_thanks"
+            android:layout_marginBottom="@dimen/buttonspacing" />
+
+        <Button
+            android:layout_width="@dimen/about_buttonsize"
+            android:layout_height="wrap_content"
+            android:text="@string/button_changelog"
+            android:id="@+id/bt_show_changelog"
+            android:layout_marginBottom="@dimen/buttonspacing" />
+
+        <Button
+            android:layout_width="@dimen/about_buttonsize"
+            android:layout_height="wrap_content"
+            android:text="@string/mycelium_terms_of_use"
+            android:id="@+id/bt_tou_mycelium"
+            android:layout_marginBottom="@dimen/buttonspacing" />
+
+        <Button
+            android:layout_width="@dimen/about_buttonsize"
+            android:layout_height="wrap_content"
+            android:text="@string/mycelium_license"
+            android:id="@+id/bt_license_mycelium"
+            android:layout_marginBottom="@dimen/buttonspacing" />
+
+        <Button
+            android:layout_width="@dimen/about_buttonsize"
+            android:layout_height="wrap_content"
+            android:text="@string/zxing_license"
+            android:id="@+id/bt_license_zxing"
+            android:paddingTop="8dp"
+            android:layout_marginBottom="@dimen/buttonspacing" />
+
+        <Button
+            android:layout_width="@dimen/about_buttonsize"
+            android:layout_height="wrap_content"
+            android:text="@string/pdfwriter_license"
+            android:id="@+id/bt_license_pdfwriter"
+            android:layout_marginBottom="@dimen/buttonspacing" />
+
+        <Button
+            android:layout_width="@dimen/about_buttonsize"
+            android:layout_height="wrap_content"
+            android:text="Connection Logs"
+            android:id="@+id/bt_show_server_info"
+            android:layout_marginBottom="@dimen/buttonspacing" />
+
+    </LinearLayout>
+</ScrollView>

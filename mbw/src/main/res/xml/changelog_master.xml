@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release version="2.9.11" versioncode="2091100">
+        <change>get RMC rate from coinmarketcap</change>
+        <change>Explain why not all the balance is spendable in the amount entry screen</change>
+        <change>Bugfixes</change>
+    </release>
+    <release version="2.9.10" versioncode="2091006">
+        <change>SaferVPN Christmas promotion until January 3rd: 1 month USD 9.99/m, 1 year USD 4.49/m, 2 years USD 2.49/m</change>
+        <change>Receive other coins into your Bitcoin accounts through Changelly</change>
+        <change>Bugfix: improved startup performance</change>
+        <change>Bugfix: rare crash bugs and UI glitches were fixed</change>
+    </release>
+    <release version="2.9.9.0" versioncode="2090900">
+        <change>Improved RMC integration</change>
+    </release>
+    <release version="2.9.8" versioncode="2090800">
+        <change>Improved custom fees: better defaults values and more choice for low fees</change>
+        <change>Support for Android Studio 3.0: faster build times, new profiling tools and Kotlin official language</change>
+        <change>Black Friday Promotions!</change>
+        <change>21% OFF Ledger Nano S Hardware Wallet</change>
+        <change>SaferVPN Buy 1 Month Get 1 Free (1/6/12 months)</change>
+        <change>SaferVPN Nov 26-28: 3 years for $89.64 (80% discount)</change>
+        <change>New SaferVPN Business Cloud VPN min 5 users</change>
+    </release>
+    <release version="2.9.7" versioncode="290705">
+        <change>made account list collapsable</change>
+        <change>improved startup time</change>
+        <change>show fiat value of time of transaction</change>
+    </release>
+    <release version="2.9.6" versioncode="290601">
+        <change>You can now buy BTC by credit card directly in EUR as well as USD</change>
+        <change>Increased limits of credit card sales: 20K USD per day and 50K USD per month</change>
+        <change>New Mycelium partner: SaferVPN to enhance your privacy at home and when travelling</change>
+        <change>Performance improvements and bug fixes</change>
+    </release>
+    <release version="2.9.5" versioncode="290502">
+        <change>Miner fee picker updated (1sat/b added).</change>
+        <change>Colored Coins utoxs protection added.</change>
+        <change>Dynamic RMC exchange rate and Total supply added.</change>
+        <change>Fixed send button not been visible on the small screen devices.</change>
+        <change>Buy/sell bitcoin button randomly disappearing fixed.</change>
+        <change>"Add to address book" feature now works in Colored Coins accounts.</change>
+        <change>Colored Coins accounts archiving issue solved.</change>
+        <change>Several minor bugfixes.</change>
+    </release>
+    <release version="2.9.4" versioncode="290403">
+        <change>sign messages with token private keys</change>
+        <change>verify signed messages</change>
+        <change>removed RMC chart</change>
+    </release>
+    <release version="2.9.3" versioncode="290302">
+        <change>bug fixed: non-utf8 passphrases are handled correctly now</change>
+        <change>bug fixed: obsolete blockr.io removed</change>
+        <change>bug fixed: private key import fixed</change>
+        <change>custom fees</change>
+    </release>
+    <release version="2.9.2" versioncode="290209">
+        <change>bugs fixed</change>
+        <change>added colored coins token handling with support for MT - Mycelium Token, MASS - Mass Network and RMC - Russian Miner Coin</change>
+        <change>fixed launcher icon</change>
+        <change>fixed address book add address button</change>
+        <change>update balance every minute</change>
+    </release>
+    <release version="2.8.12" versioncode="281202">
+        <change>fix tab issue where the address book broke</change>
+        <change>fix issue with trezor firmware 1.5.0</change>
+        <change>only consider UTXOs that pay for themselves when spending to fix the spendable amount issue</change>
+        <change>added tab with links to partners</change>
+        <change>added and activated translations, mainly Български, Indonesia, Română, čeština</change>
+    </release>
+    <release version="2.8.11" versioncode="281100">
+        <change>removed partner links</change>
+    </release>
+    <release version="2.8.10" versioncode="281000">
+        <change>Introduced partner links</change>
+        <change>LocalTrader fees will be reactivated</change>
+        <change>Default mining fees updated</change>
+        <change>Bugfixes</change>
+    </release>
+    <release version="2.8.9" versioncode="28900">
+        <change>BTC sales in the US by credit card are now back in all states except WA thanks to our partners</change>
+        <change>Removed defunct Cashila. They had stopped serving end customers</change>
+    </release>
+    <release version="2.8.8" versioncode="28805">
+        <change>Better fee estimation, on average 10% cheaper. This will lead to the lowest fee now actually result in transactions getting confirmed later/not at all under extreme circumstances. If you always picked the cheapest, you might have to reconsider.</change>
+        <change>sat/byte: Even before picking details, the fee level is shown</change>
+        <change>CPFP: you can now bump the fee of incoming stuck transactions</change>
+        <change>Show UTXO count in UTXO list if more than 5</change>
+        <change>improved localization</change>
+        <change>bug fixes</change>
+        <change>many changes under the hood</change>
+    </release>
+    <release version="2.8.7" versioncode="28700">
+        <change>Integration with Simplex - buy bitcoin with your credit card</change>
+    </release>
+    <release version="2.8.6" versioncode="28600">
+        <change>Integration with Bitcoin Store - you can now buy bitcoin with your credit card</change>
+        <change>Removed the star rating from local trader as it lured people into too much trust</change>
+    </release>
+    <release version="2.8.5" versioncode="28502">
+        <change>Support for "Ledger Nano S"</change>
+        <change>Change to a new backend certificate (increased key length, renewed date)</change>
+        <change>[bugfix] dont show wrong Orbot warning on Android 6.0+</change>
+        <change>[bugfix] fix "Ledger Unplugged" communication problems</change>
+        <change>[bugfix] fix wrong Trezor firmware update message</change>
+    </release>
+    <release version="2.8.4" versioncode="28408">
+        <change>Support for KeepKey hardware wallets</change>
+        <change>Link to Trezor configuration tool for initialization and firmware updates</change>
+        <change>Improved button descriptions for better accessibility</change>
+        <change>[bugfix] Fix bug which under certain circumstances showed a wrong sending-amount</change>
+        <change>[bugfix] Unable to edit LT ad if the used price source is unavailable (looking at you, bitfinex)</change>
+        <change>[bugfix] Regression - handle Bip72-URIs without bitcoin address correct</change>
+        <change>[bugfix] Check for the tor-binary in different data-directory</change>
+        <change>[bugfix] Fix wrong receiving warning "amount does not match"</change>
+        <change>[bugfix] Fix wrong check which prevents archiving all accounts</change>
+    </release>
+    <release version="2.8.3" versioncode="28203">
+        <change>[bugfix] Fixed bug in miner fee estimation synchronisation</change>
+    </release>
+    <release version="2.8.2" versioncode="28200">
+        <change>Improve the connection timeout handling to work better with tor</change>
+        <change>Dont show the changelog on the very first app startup</change>
+        <change>[bugfix] Prevent gaps from happening in the address index if you have other accounts imported</change>
+    </release>
+    <release version="2.8.1" versioncode="28101">
+        <change>Show more error details if a BIP77 payment request fails to parse/validate</change>
+        <change>[bugfix] Fix crash after local cache got inconsistent due to a failed sync</change>
+        <change>[bugfix] Don't try to sync utxos for addresses from the address book</change>
+    </release>
+    <release version="2.8.0" versioncode="28000">
+        <change>Add Glidera-integration to easily buy and sell bitcoin</change>
+    </release>
+    <release version="2.7.4" versioncode="27406">
+        <change>Add option to cold-spend from bip38-encrypted private keys via NFC</change>
+        <change>Option to show the BIP44 path for the current address on main screen</change>
+        <change>Improve synchronisation with backend to speed up syncs and cut down data usage</change>
+        <change>[bugfix] Fix cold-spending does not sync correctly</change>
+    </release>
+    <release version="2.7.3" versioncode="27301">
+        <change>Warn the user if a local-trader payout will go to a watch-only address</change>
+        <change>Optimize sync-behaviour for addresses with a high number of transactions</change>
+        <change>Clear coinapult last-address cache once to ensure fresh addresses for migration to new backend</change>
+        <change>[bugfix] fix local-trader, seller is unable to accept trade</change>
+    </release>
+    <release version="2.7.2" versioncode="27200">
+        <change>Show fee/bytes in transaction details</change>
+        <change>remove obsolete block explorers</change>
+        <change>change transaction history csv export, so that it can handle a lot more transactions</change>
+        <change>[bugfix] update okhttp and fix problem with pinned certificates on some android versions</change>
+    </release>
+    <release version="2.7.0" versioncode="27000">
+        <change>Fix QR-scanning camera rotation on new devices like Nexus 5x</change>
+        <change>Show a warning if incoming transaction has a higher risk of getting double-spend (RBF, unconfirmed parents)</change>
+        <change>Update okhttp library due to security vulnerability</change>
+    </release>
+    <release version="2.6.0" versioncode="26003">
+        <change>Create new Cashila account &amp; option to add new recipients from within the app</change>
+        <change>Allow switching between front and back camera for scanning QR codes</change>
+        <change>[bugfix] fix crash in local-trader if exchange rate is not available</change>
+    </release>
+    <release version="2.5.9" versioncode="25900">
+        <change>Update translations</change>
+        <change>[bugfix] Fix crash while entering amount and fx rate updates</change>
+    </release>
+    <release version="2.5.8" versioncode="25800">
+        <change>Enable EUR, GBP and USD accounts for coinapult</change>
+        <change>Additional to "?label" check bitcoin-addresses for a "?message" parameter</change>
+        <change>[bugfix] Fix fee calculation for sending max amount, to not leave some change behind</change>
+        <change>[bugfix] Fix currency toggle for get-amount: it always skipped the first fiat currency on the first cycle.</change>
+    </release>
+    <release version="2.5.6" versioncode="25600">
+        <change>Improve error handling for ledger devices (report wrong pin correctly)</change>
+        <change>[bugfix] Importing HD accounts now verifies that the extended key is an account-level key according to BIP44</change>
+        <change>[bugfix] Fix crash bug while building unsigned transaction</change>
+    </release>
+    <release version="2.5.5" versioncode="25500">
+        <change>Offline spending directly from external master-seeds</change>
+        <change>Offline spending from Bip32 root account of a masterseed (hive compatible)</change>
+        <change>Proof-of-Payment, Bip120/121 (thanks Kalle Rosenbaum for the collaboration)</change>
+        <change>Show Ledger AID-settings even if TEE is not enabled</change>
+        <change>Show "Add USD account" in account list menu</change>
+        <change>[bugfix] Cashila, keep selected recipient after screen rotation</change>
+    </release>
+    <release version="2.5.4" versioncode="25400">
+        <change>Added argentine blue exchange rate based on bluelytics.com.ar</change>
+        <change>[bugfix] Fixed wrong url for blockr.com block explorer</change>
+        <change>[bugfix] Fix crash while exporting xPub from trezor/ledger accounts</change>
+    </release>
+    <release version="2.5.3" versioncode="25300">
+        <change>Option to export your LocalTrader-ID to migrate to a different phone</change>
+        <change>Recognize outgoing transactions from other phones sharing the same account correctly</change>
+        <change>[bugfix] Don't crash if user enters a bitcoin amount larger than 21mil</change>
+        <change>[bugfix] Cleanup if connection fails while creating coinapult account</change>
+        <change>[bugfix] Dont crash on unexpected coinapult transaction type</change>
+    </release>
+    <release version="2.5.2" versioncode="25200">
+        <change>Only sync coinapult account, if it is the selected account</change>
+        <change>[bugfix] various small bug fixes</change>
+    </release>
+    <release version="2.5.1" versioncode="25100">
+        <change>[bugfix] dont show any address if coinapult servers do not respond</change>
+    </release>
+    <release version="2.5.0" versioncode="25012">
+        <change>Added Ledger support (Ledger Nano, HW.1 and also Ledger-Unplugged)</change>
+        <change>Added Coinapult support - new account type which uses coinapult locks to manage USD amounts</change>
+        <change>Added option to choose favorite Block Explorer</change>
+        <change>Added option to copy input/output-amounts using LongClick in transaction details</change>
+        <change>Added Bip73 support - compacter QR codes for payment requests</change>
+        <change>Show fiat value for payment requests</change>
+        <change>Minor UI changes</change>
+        <change>[bugfix] Fix error in transaction history, if no fiat currency is selected</change>
+        <change>[bugfix] Also check startup-pin on launch via LT notification</change>
+    </release>
+    <release version="2.4.4" versioncode="24400">
+        <change>Added option to re-broadcast unconfirmed transactions</change>
+        <change>Dynamic Fee structure, based on blockchain load</change>
+        <change>Added csv export for transaction history</change>
+    </release>
+    <release version="2.4.3" versioncode="24300">
+        <change>[bugfix] fix BitID derivation scheme for cashila login - if you have already used it, please pair it again</change>
+    </release>
+    <release version="2.4.2" versioncode="24200">
+        <change>[bugfix] fix BitID derivation scheme to be based on the callback url</change>
+        <change>[bugfix] handle optional fields in payment requests correctly</change>
+        <change>[bugfix] corrected Albanian and Vietnamese language entry</change>
+    </release>
+    <release version="2.4.1" versioncode="24100">
+        <change>Added Czech language</change>
+        <change>[bugfix] fixed crash bugs in BitID</change>
+        <change>[bugfix] fixed crash caused by malformed payment requests</change>
+    </release>
+    <release version="2.4.0" versioncode="24001">
+        <change>Integration with Cashila to enable SEPA-Payments</change>
+        <change>Fetch and verify Payment-Requests (BIP70)</change>
+        <change>BitID authentication enabled</change>
+        <change>Deterministic signatures for Bitcoin transactions (RFC6979)</change>
+        <change>UI changes for the PIN entry</change>
+        <change>Option to remove queued outgoing transaction before broadcasting</change>
+        <change>Allow spending of unconfirmed funds</change>
+    </release>
+    <release version="2.3.2" versioncode="23200">
+        <change>Added Albanian, Greek and Swedish languages</change>
+        <change>Added translators to special thanks in About screen</change>
+    </release>
+    <release version="2.3.1" versioncode="23100">
+        <change>Trezor: Fix PIN entry for new 1.3.3 firmware</change>
+    </release>
+    <release version="2.3.0" versioncode="23000">
+        <change>Allow direct spending from offline master-seed</change>
+        <change>Add xPriv/xPub import feature</change>
+        <change>Add xPriv/xPub share feature</change>
+        <change>Add Trezor support (cold-spending and Trezor-based accounts)</change>
+        <change>Allow scanning xPub keys for sending and balance check</change>
+        <change>Allow cold-spending from xPriv keys</change>
+        <change>New setting: require pin on startup</change>
+        <change>Show number of confirmations in transaction details</change>
+        <change>Translations updated (Thanks to all our translators!)</change>
+        <change>[bug] unify import from QR-Code and clipboard</change>
+        <change>[bug] enabling OK button after pasting amount from clipboard</change>
+        <change>[bug] fixing cut-off transaction labels in history</change>
+        <change>[bug] correctly showing entered amount after screen rotation</change>
+        <change>[bug] correctly showing selection when scrolling in transaction history</change>
+    </release>
+    <release version="2.2.0" versioncode="22000">
+        <change>Transactions tab: UI-Changes, show confirmations with pie-chart</change>
+        <change>Transactions tab: Add address to address book</change>
+        <change>Transactions tab: Show fiat-values</change>
+        <change>Transactions tab: Show "Reload Account" button, if list is empty</change>
+        <change>Transactions tab: Show "Reload Account" menu in transaction-history</change>
+        <change>Accounts tab: Split list into "HD" and "Other"</change>
+        <change>Accounts tab: Show totals for each account type</change>
+        <change>Accounts tab: Totals in Fiat or Bitcoin</change>
+        <change>Create new single-key accounts (advanced option)</change>
+        <change>Select miner-fee directly in send-dialog</change>
+        <change>Option to show the connection-logs in about-dialog</change>
+        <change>Add bitfinex as price-source</change>
+        <change>Option to export xPub/xPriv key of HD-Accounts</change>
+        <change>Show NFC icon, if NFC is available</change>
+        <change>Show PIN reset hint after wrong PIN entry</change>
+        <change>Select multiple Fiat currencies</change>
+        <change>Tor - new option to connect to the backend via hidden-services (improves privacy and availability)</change>
+        <change>Show changes after upgrade</change>
+        <change>[bug] Fix wrong locale for some LT-messages</change>
+        <change>[bug] Google-Geocoder JSON response changed</change>
+        <change>[bug] Fix number entry in send-dialog, [GitHub:146]</change>
+    </release>
+</changelog>
